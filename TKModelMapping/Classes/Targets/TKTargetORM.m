@@ -18,7 +18,7 @@ static NSString* const kModelORMCoder = @"ORMCoder";
 static NSString* const kClassMethodInfo = @"methodInfo";
 static NSString* const kClassPropertyInfo = @"propertyInfo";
 
-@implementation TKTarget_ORM
+@implementation TKTargetORM
 
 - (id)tkAction_modelWithJSON:(NSDictionary *)params
 {

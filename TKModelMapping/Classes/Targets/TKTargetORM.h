@@ -11,7 +11,7 @@
 /**
  动态对象影射转换工具
  */
-@interface TKTarget_ORM : NSObject
+@interface TKTargetORM : NSObject
    
 - (id)tkAction_modelWithJSON:(NSDictionary *)params;
 
