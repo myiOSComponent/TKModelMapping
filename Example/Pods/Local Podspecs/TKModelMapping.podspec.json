@@ -1,0 +1,31 @@
+{
+  "name": "TKModelMapping",
+  "version": "0.0.1",
+  "summary": "对象和json数据相互转化工具",
+  "description": "对象和json数据相互转化，可以方便进行比较，转化，保存等。",
+  "homepage": "https://github.com/thinkWind",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "thinkWind": "512869343@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/myiOSComponent/TKMiddleware.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Model",
+      "source_files": "TKModelMapping/Classes/GPModel/**/*"
+    },
+    {
+      "name": "Targets",
+      "source_files": "TKModelMapping/Classes/Targets/**/*"
+    }
+  ]
+}

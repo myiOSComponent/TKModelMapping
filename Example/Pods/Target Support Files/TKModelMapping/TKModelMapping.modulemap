@@ -1,0 +1,6 @@
+framework module TKModelMapping {
+  umbrella header "TKModelMapping-umbrella.h"
+
+  export *
+  module * { export * }
+}

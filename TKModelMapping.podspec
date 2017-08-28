@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKModelMapping'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TKModelMapping.'
+  s.version          = '0.0.1'
+  s.summary          = '对象和json数据相互转化工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+对象和json数据相互转化，可以方便进行比较，转化，保存等。
                        DESC
 
-  s.homepage         = 'https://github.com/512869343@qq.com/TKModelMapping'
+  s.homepage         = 'https://github.com/thinkWind'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '512869343@qq.com' => '512869343@qq.com' }
-  s.source           = { :git => 'https://github.com/512869343@qq.com/TKModelMapping.git', :tag => s.version.to_s }
+  s.author           = { 'thinkWind' => '512869343@qq.com' }
+  s.source           = { :git => 'https://github.com/myiOSComponent/TKModelMapping.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TKModelMapping/Classes/**/*'
-  
+  s.subspec 'Model' do |ss|
+    ss.source_files = 'TKModelMapping/Classes/GPModel/**/*'
+  end
+
+  s.subspec 'Targets' do |ss|
+    ss.source_files = 'TKModelMapping/Classes/Targets/**/*'
+  end
+
   # s.resource_bundles = {
   #   'TKModelMapping' => ['TKModelMapping/Assets/*.png']
   # }

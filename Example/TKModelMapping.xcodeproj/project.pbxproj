@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		02AD0E88E5FE6A1970D07D60 /* Pods_TKModelMapping_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKModelMapping_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E44882006C5BB34C26DB961 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E44882006C5BB34C26DB961 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4943EA7C2FD615A110E74655 /* Pods-TKModelMapping_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKModelMapping_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKModelMapping_Tests/Pods-TKModelMapping_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKModelMapping_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKModelMapping_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A199C05866627852A0A986F9 /* Pods_TKModelMapping_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKModelMapping_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6504CD2AF0A81A9F6290DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A6504CD2AF0A81A9F6290DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B29A992914FF23F8A9F05E48 /* Pods-TKModelMapping_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKModelMapping_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKModelMapping_Example/Pods-TKModelMapping_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DD0D78D5FCD669E88F7BB25F /* Pods-TKModelMapping_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKModelMapping_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKModelMapping_Example/Pods-TKModelMapping_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E178DE649EE8026F9D8B925C /* TKModelMapping.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKModelMapping.podspec; path = ../TKModelMapping.podspec; sourceTree = "<group>"; };
+		E178DE649EE8026F9D8B925C /* TKModelMapping.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKModelMapping.podspec; path = ../TKModelMapping.podspec; sourceTree = "<group>"; };
 		F534CFAD006E9DE27A182D64 /* Pods-TKModelMapping_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKModelMapping_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKModelMapping_Tests/Pods-TKModelMapping_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
