@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TKModelMapping_Example' do
+  pod 'TKModelMapping', :path => '../'
+
+  target 'TKModelMapping_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
