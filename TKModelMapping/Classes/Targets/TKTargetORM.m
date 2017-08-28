@@ -6,7 +6,7 @@
 //
 //
 
-#import "TKTarget_ORM.h"
+#import "TKTargetORM.h"
 #import "GPModel.h"
 
 static NSString* const kModelORMClass = @"ORMClass";
