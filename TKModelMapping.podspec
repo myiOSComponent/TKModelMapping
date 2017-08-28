@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Targets' do |ss|
     ss.source_files = 'TKModelMapping/Classes/Targets/**/*'
+    ss.dependency 'TKModelMapping/Model'
   end
 
   # s.resource_bundles = {
