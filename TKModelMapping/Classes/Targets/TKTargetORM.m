@@ -100,12 +100,10 @@ static NSString* const kClassPropertyInfo = @"propertyInfo";
     NSMutableDictionary* retClassInfo = [NSMutableDictionary new];
     GPModelClassInfo* classInfo = [GPModelClassInfo classInfoWithClass:modelClass];
     
-    NSLog(@"方法列表:%@",classInfo.methodInfos);
     if (classInfo.methodInfos) {
         retClassInfo[kClassMethodInfo] = classInfo.methodInfos.allKeys;
     }
-    
-    NSLog(@"属性列表:%@",classInfo.propertyInfos);
+
     if (classInfo.propertyInfos) {
         retClassInfo[kClassPropertyInfo] = classInfo.propertyInfos.allKeys;
     }
